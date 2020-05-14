@@ -1,0 +1,76 @@
+<dataset>
+<images>
+ <image file='frontal.JPG'>
+    <box top='133' left='150' width='154' height='155'>
+    <part name='00' x='159' y='167'/>
+    <part name='01' x='158' y='187'/>
+    <part name='02' x='160' y='206'/>
+    <part name='03' x='162' y='226'/>
+    <part name='04' x='170' y='243'/>
+    <part name='05' x='183' y='260'/>
+    <part name='06' x='199' y='275'/>
+    <part name='07' x='217' y='287'/>
+    <part name='08' x='236' y='290'/>
+    <part name='09' x='255' y='284'/>
+    <part name='10' x='269' y='270'/>
+    <part name='11' x='282' y='255'/>
+    <part name='12' x='292' y='239'/>
+    <part name='13' x='298' y='222'/>
+    <part name='14' x='301' y='205'/>
+    <part name='15' x='303' y='187'/>
+    <part name='16' x='303' y='169'/>
+    <part name='17' x='170' y='160'/>
+    <part name='18' x='181' y='151'/>
+    <part name='19' x='196' y='149'/>
+    <part name='20' x='211' y='152'/>
+    <part name='21' x='225' y='157'/>
+    <part name='22' x='246' y='156'/>
+    <part name='23' x='260' y='151'/>
+    <part name='24' x='274' y='149'/>
+    <part name='25' x='288' y='151'/>
+    <part name='26' x='297' y='160'/>
+    <part name='27' x='236' y='168'/>
+    <part name='28' x='236' y='183'/>
+    <part name='29' x='236' y='198'/>
+    <part name='30' x='237' y='214'/>
+    <part name='31' x='219' y='219'/>
+    <part name='32' x='227' y='222'/>
+    <part name='33' x='235' y='225'/>
+    <part name='34' x='243' y='222'/>
+    <part name='35' x='250' y='218'/>
+    <part name='36' x='187' y='168'/>
+    <part name='37' x='196' y='164'/>
+    <part name='38' x='206' y='164'/>
+    <part name='39' x='215' y='172'/>
+    <part name='40' x='206' y='173'/>
+    <part name='41' x='195' y='173'/>
+    <part name='42' x='253' y='171'/>
+    <part name='43' x='262' y='164'/>
+    <part name='44' x='272' y='164'/>
+    <part name='45' x='281' y='169'/>
+    <part name='46' x='273' y='172'/>
+    <part name='47' x='263' y='173'/>
+    <part name='48' x='201' y='236'/>
+    <part name='49' x='214' y='235'/>
+    <part name='50' x='227' y='233'/>
+    <part name='51' x='235' y='235'/>
+    <part name='52' x='243' y='232'/>
+    <part name='53' x='254' y='233'/>
+    <part name='54' x='265' y='234'/>
+    <part name='55' x='255' y='246'/>
+    <part name='56' x='245' y='253'/>
+    <part name='57' x='236' y='255'/>
+    <part name='58' x='227' y='254'/>
+    <part name='59' x='215' y='249'/>
+    <part name='60' x='206' y='238'/>
+    <part name='61' x='227' y='242'/>
+    <part name='62' x='235' y='242'/>
+    <part name='63' x='243' y='241'/>
+    <part name='64' x='260' y='236'/>
+    <part name='65' x='244' y='241'/>
+    <part name='66' x='236' y='243'/>
+    <part name='67' x='228' y='242'/>
+</box>
+</image>
+</images>
+</dataset>
