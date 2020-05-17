@@ -63,20 +63,20 @@ def getTestingImages(file):
     return imgs
 
 
+
+images = getTestingImages("ibug_300W_large_face_landmark_dataset/labels_ibug_300W_test.xml")
 #
-# images = getTestingImages("ibug_300W_large_face_landmark_dataset/labels_ibug_300W_test.xml")
+# predictor_path = "shape_predictor_68_face_landmarks.dat"
+# detectLandmarks(predictor_path, "groundTruth.xml", images)
 # #
-# # predictor_path = "shape_predictor_68_face_landmarks.dat"
-# # detectLandmarks(predictor_path, "groundTruth.xml", images)
+# # predictor_path = "predictorMax.dat"
+# # detectLandmarks(predictor_path, "predictedMax.xml", images)
 # #
-# # predictor_path = "predictor2000.dat"
-# # detectLandmarks(predictor_path, "predicted2000.xml", images)
+# # #detectLandmarks("predictor1000Tuned.dat", "predicted1000Tuned.xml", images)
 #
-# #detectLandmarks("predictor1000Tuned.dat", "predicted1000Tuned.xml", images)
-#
-# #detectLandmarks("predictorMax.dat", "predicted6666.xml", images)
-#
-# ground_truth2 = read_xml("groundTruth.xml")
-# predicted2 = read_xml("predicted6666.xml")
-# error = mean_error(predicted2, ground_truth2)
-# print(error)
+detectLandmarks("predictor2000.dat", "predicte2000.xml", images)
+
+ground_truth2 = read_xml("groundTruth.xml")
+predicted2 = read_xml("predicted2000.xml")
+error = mean_error(predicted2, ground_truth2)
+print(error)

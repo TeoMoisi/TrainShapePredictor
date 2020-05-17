@@ -117,3 +117,6 @@ predicted = read_small_xml("frontalLandmarks.xml")
 # print(predicted)
 error = mean_error(predicted, ground_truth)
 print(error)
+
+#error = dlib.test_shape_predictor("ibug_300W_large_face_landmark_dataset/labels_ibug_300W_test.xml", "shape_predictor_68_face_landmarks.dat")
+#print("[INFO] error: {}".format(error))
