@@ -17,7 +17,7 @@ detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor(predictor_path)
 #predictor = dlib.simple_object_detector(predictor_path)
 
-out = open("trainings.xml", "w")
+out = open("xml_training/trainings1000.xml", "w")
 # test = open("testing.xml", "w")
 out.write("<dataset>\n")
 # test.write("<dataset>\n")
@@ -59,41 +59,7 @@ for image_path in glob.glob("faces/7285955@N06/*.jpg"):
             out.write(f"</box>\n")
 
     out.write(f"</image>\n")
-        # cv2.imshow("Output", image)
-        # cv2.waitKey(0)
-
-
-
-    # else:
-    #     test.write(f" <image file='{image_path}'>\n")
-    #
-    #     for (i, rect) in enumerate(rects):
-    #         shape = predictor(gray, rect)
-    #         shape = face_utils.shape_to_np(shape)
-    #
-    #         (x, y, w, h) = face_utils.rect_to_bb(rect)
-    #         cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
-    #
-    #         test.write(f"    <box top='{y}' left='{x}' width='{w}' height='{h}'>\n")
-    #
-    #         cv2.putText(image, "Face #{}".format(i + 1), (x - 10, y - 10),
-    #                     cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
-    #
-    #         for (j, (x, y)) in enumerate(shape):
-    #             cv2.circle(image, (x, y), 1, (0, 0, 255), -1)
-    #             index = "{0:0=2d}".format(j)
-    #             test.write(f"    <part name='{index}' x='{x}' y='{y}'/>\n")
-    #         test.write(f"</box>\n")
-    #
-    #     test.write(f"</image>\n")
-        # cv2.imshow("Output", image)
-        # cv2.waitKey(0)
-
 
 out.write(f"</images>\n")
 out.write(f"</dataset>\n")
 out.close()
-
-# test.write(f"</images>\n")
-# test.write(f"</dataset>\n")
-# test.close()
